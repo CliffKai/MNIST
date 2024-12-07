@@ -14,12 +14,10 @@
 6. 使用训练好的CNN网络模型进行图片识别
 
 > 如果你没有MNIST，记得先调用download_data下载数据集  
-> 归一化处理图片的代码为standardize  
-> predict为预测官方MNIST数据集的结果   
-> predict2为预测自己制作的数据集的结果
 
 **特别说明:**  
 &emsp;当前models下为训练好的模型，可以直接调用predict使用，如果你想自己训练模型请删除models下的文件   
-&emsp;因为一些特殊原因我尝试了下自己制作的测试集（格式对齐MNIST后在data/standardize下）,只是效果很不好罢了，有兴趣的可以自己试试，欢迎fork
+&emsp;因为一些特殊原因我尝试了下自己制作的测试集（格式对齐MNIST后在data/standardize下）,只是效果很不好罢了，有兴趣的可以自己试试，欢迎fork  
+&emsp;归一化处理图片的代码为standardize,predict为预测官方MNIST数据集的结果,predict2为预测自己制作的数据集的结果
 
 =========================================================================
